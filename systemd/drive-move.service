@@ -1,0 +1,12 @@
+[Unit]
+Description = action for drive monitor
+Documentation = man:systemd.service
+
+
+[Service]
+#runs once, then the process exits
+Type = oneshot 
+ExecStart1 = /home/luke/bin/movefile.sh
+
+[Install]
+WantedBy = multi-user.target

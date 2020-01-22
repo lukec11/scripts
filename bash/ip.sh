@@ -1,6 +1,6 @@
 #echo " IP-info: " `curl -s ipinfo.io/ip`
 
-echo " OpenDNS: " `dig +short myip.opendns.com @resolver1.opendns.com`
+#echo " OpenDNS: " `dig +short myip.opendns.com @resolver1.opendns.com`
 
 echo "   NoVPN: " `dig +short myip.opendns.com` 
 

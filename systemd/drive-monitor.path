@@ -1,0 +1,9 @@
+[Unit]
+Description = Monitoring to trigger move service
+Documentation = man:systemd.path
+
+[Path]
+PathModified = /mnt/googledrive
+
+[Install]
+WantedBy = multi-user.sh
